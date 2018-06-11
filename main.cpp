@@ -9,13 +9,18 @@ int main() {
     int v2 = 0;
 
     cin >> x1;
-    cout << x1 << endl;
+    // cout << x1 << endl;
     cin >> v1;
-    cout << v1 << endl;
+    // cout << v1 << endl;
     cin >> x2;
-    cout << x2 << endl;
+    // cout << x2 << endl;
     cin >> v2;
-    cout << v2 << endl;
+    // cout << v2 << endl;
+
+    if (v1 <= v2) {
+        cout << "NO" << endl;
+        return 0;
+    }
 
     
     return 0;
